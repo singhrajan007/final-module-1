@@ -1,0 +1,33 @@
+@media only screen and (max-width: 840px){
+    .menu{
+        display: inline-flex;
+    }
+    .navBar-right{
+        display: none;
+    }
+    .navBar-left{
+        flex-grow: 1;
+    }
+
+    .content{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .content-left{
+        width: 95%;
+    }
+    .content-right{
+        width: 99%;
+        margin-left: -12px;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .content-right-bottom{
+        flex-direction: column;
+    }
+
+    .content-right-top-main{
+        flex-direction: column;
+    }
+}
